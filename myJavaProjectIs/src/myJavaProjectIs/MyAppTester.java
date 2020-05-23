@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package myJavaProjectIs;
+
+import java.util.Scanner;
+
+/**
+ * @author taran
+ *
+ */
+public class MyAppTester {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input=new Scanner(System.in);
+		System.out.println("Hello software Engineering world!");
+		System.out.println("Enter and input a number ");
+		int n=input.nextInt();
+		
+	}
+
+}
