@@ -20,7 +20,21 @@ public class MyAppTester {
 		System.out.println("Hello software Engineering world!");
 		System.out.println("Enter and input a number ");
 		int n=input.nextInt();
-		
+		System.out.println("The reverse of your input is:");
+		ReverseMethod(n);
+	}
+	 //this is the stage where we are on branch b1
+	//this is cool hahhahaha
+	// the method to reversing a number in recursion 
+	public static void ReverseMethod(int num) {
+		if(num<10) {
+			System.out.println(num);
+			return;
+		}
+		else {
+			System.out.println(num % 10);
+			ReverseMethod(num/10);
+		}
 	}
 
 }
